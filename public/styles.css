@@ -1,28 +1,23 @@
 * {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
+  background: #f5f7fb;
 }
 
-body {
+.main {
   background: #f5f7fb;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 200px;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 
-h1 {
+.quizzical-title {
   font-size: 50px;
 }
 
-p {
+.home-description {
   margin-top: -30px;
 }
 
@@ -49,4 +44,12 @@ footer {
   text-align: center;
   font-size: 12px;
   margin-top: 8px;
+}
+
+.trivia-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "karla", sans-serif;
 }
