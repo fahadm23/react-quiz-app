@@ -47,6 +47,11 @@ footer {
   z-index: 100;
 }
 
+.btn-primary:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
 .btn-primary:active {
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75) inset;
 }
