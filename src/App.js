@@ -42,7 +42,7 @@ const App = () => {
         </section>
       ) : (
         <section className="game-intro">
-          <h1 className="game-title">Quizzical</h1>
+          <h1 className="game-title">Trivia Time! 🤓</h1>
           <p className="game-text">
             Answer the questions and test your knowledge!
           </p>
